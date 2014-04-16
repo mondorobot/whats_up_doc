@@ -25,7 +25,7 @@ In a rackup file:
 use WhatsUpDoc::Middleware, path: '/my-up-path'
 ```
 
-Or in Rails:
+Or in Rails (config/application.rb):
 
 ``` ruby
 config.middleware.use(WhatsUpDoc::Middleware, path: '/my-up-path')
